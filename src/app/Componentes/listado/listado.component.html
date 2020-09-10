@@ -1,6 +1,9 @@
-<h1>{{titulo}} </h1>
-<div *ngFor="let alumno of listado">
-    {{alumno.nombre}},{{alumno.apellido}}
+<h1 class="text-muted text-center ">{{titulo}} </h1>
+<div  *ngFor="let alumno of listado">
+  <span>{{alumno.nombre}}</span> <span> {{alumno.apellido}}</span>
+   <span>{{alumno.legajo}}</span> <span>{{alumno.materias}}</span>        
+       
+    
 </div>
 
 
