@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { AlumnoComponent } from './Componentes/alumno/alumno.component';
 import { CargarComponent } from './Componentes/cargar/cargar.component';
-import { ListadoComponent } from './componentes/listado/listado.component'
+import { ListadoComponent } from './Componentes/listado/listado.component'
 
 @NgModule({
   declarations: [
