@@ -1,0 +1,13 @@
+<app-cargar (alumnos)='locura($event)'></app-cargar>
+<app-listado [listado]='listaAlumnos'>
+
+</app-listado>
+<br>
+<hr>
+<br>
+<div *ngFor="let alumno of listaAlumnos">
+    {{alumno.nombre}}
+</div>
+
+
+

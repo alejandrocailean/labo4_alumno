@@ -1,0 +1,20 @@
+<h1>{{titulo}}</h1>
+
+<form action="">
+    <div name='alta'>
+        <input type="text" name='nombre'
+        placeholder="Escribi tu nombre aca"
+        [(ngModel)]="nombre"><br>
+        <input type="text" name='apellido'
+        placeholder="Escribi tu apellido"
+        [(ngModel)]="apellido"><br>    
+        <input type="number" name='legajo'        
+        [(ngModel)]="legajo"><br>
+        <input type="text" name='materias'
+        placeholder='Coloque las materias'        
+        [(ngModel)]="materias"><br>
+        <input type="submit" value="enviar" (click)='Cargar($event)'>
+    
+
+    </div>
+</form>
