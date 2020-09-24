@@ -1,9 +1,32 @@
 <h1 class="text-muted text-center ">{{titulo}} </h1>
-<div  *ngFor="let alumno of listado">
+<!-- <div  *ngFor="let alumno of listado">
   <span>{{alumno.nombre}}</span> <span> {{alumno.apellido}}</span>
    <span>{{alumno.legajo}}</span> <span>{{alumno.materias}}</span>        
-       
     
+    
+</div>
+<br><br>
+  <hr> -->
+
+<div class="panel-body">  
+  <Table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Legajo</th>
+          <th>Materias</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let alumno of listado">
+          <td>{{alumno.nombre}}</td>
+          <td>{{alumno.apellido}}</td>
+          <td>{{alumno.legajo}}</td>
+          <td>{{alumno.materias}}</td>
+        </tr>
+      </tbody>
+    </Table> 
 </div>
 
 
